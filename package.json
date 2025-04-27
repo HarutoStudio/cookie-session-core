@@ -1,0 +1,40 @@
+{
+  "name": "cookie-session-core",
+  "version": "0.0.1",
+  "description": "A minimal session manager using cookies, compatible with Express and other frameworks.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarutoStudio/cookie-session-core.git"
+  },
+  "keywords": [
+    "cookie",
+    "session",
+    "session-manager",
+    "middleware"
+  ],
+  "author": "BlackInk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarutoStudio/cookie-session-core/issues"
+  },
+  "homepage": "https://github.com/HarutoStudio/cookie-session-core#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "cookies": "^0.9.1",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/cookies": "^0.9.0",
+    "@types/express": "^5.0.1"
+  }
+}
